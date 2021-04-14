@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Una basica (pero muy bonita) calculadora.">
+        <link rel="shortcut icon" href="./media/calculadora.png" type="image/x-icon">
+        <title> Calculator </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <header>
+        <div id="banner">
+            <h2 id="titulo"> Hey! touch me &#128527; </h2>
+        </div> 
+    </header>
+    <body id="body">
+        <div id="description">
+            shortcut icon by:
+            <div id="icons" style="font-size: 12px;"> Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+            <br>
+            Hi! I'm Manuel Ortiz from Argentina, this is a simple calculator made with HTML, CSS, jQuery and &#x1F9E1;
+            <br><br>
+           <a href="https://github.com/mannusho"><i class="fa fa-github" style="font-size:64px;color:#2dccbc"></i></a>
+        </div>
+    
+
+        <div id="calculator" class="body-calc">
+                <div id="calc-div" class="calc-btn">
+                        <div id="screen" class="screen" readonly></div>
+                        <div class="btn" id="mod" value="%" title="Modulo: operador para saber el resto entre la division de dos numeros">%</div>
+                        <div class="btn" id="div" value="/" title="Division: operador para dividir dos numeros">/</div>
+                        <div class="btn" id="mult" value="*" title="Multiplicacion: operador para multiplicar dos numeros">*</div>
+                        <div class="btn" id="rest" value="-" title="Resta: operador para restar dos numeros">-</div>
+                        <div class="btn" id="7" value="7" title="Numero siete">7</div>
+                        <div class="btn" id="8" value="8"  title="Numero ocho">8</div>
+                        <div class="btn" id="9" value="9" title="Numero nueve">9</div>
+                        <div class="btn" id="sum" value="+" title="Suma: operador para sumar dos numeros">+</div>
+                        <div class="btn" id="4" value="4" title="Numero cuatro">4</div>
+                        <div class="btn" id="5" value="5" title="Numero cinco">5</div>
+                        <div class="btn" id="6" value="6" title="Numero seis">6</div>
+                        <div class="btn" id="delAll" value="CE" title="Borra todo los calculos de la pantalla">CE</div>
+                        <div class="btn" id="1" value="1" title="Numero uno">1</div>
+                        <div class="btn" id="2" value="2" title="Numero dos">2</div>
+                        <div class="btn" id="3" value="3" title="Numero tres">3</div>
+                        <div class="btn" id="del" value="C" title="Borrar el ultimo numero u operador ingresado">C</div>
+                        <div class="btn" id="point" value="." title="Punto para numero decimal">.</div>
+                        <div class="btn" id="0" value="0" title="Numero cero">0</div>
+                        <div class="btn" id="igual" value="=" title="Igual: para saber cual es el resultado">=</div>
+                </div>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+            <script type="text/javascript" src="functions.js"></script>
+    </body>
+</html>
